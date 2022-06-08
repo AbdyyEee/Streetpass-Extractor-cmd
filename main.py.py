@@ -6,9 +6,10 @@ from tkinter import filedialog
 root = tk.Tk()
 root.withdraw()
 
-# TODO: Not use tkiner??
+# TODO: Not use tkinter??
 # TODO: Perhaps add a way to auto restart
 # TODO: Implement gui, with PyQt6.
+# TODO: Fix input formatting below 
 
 usr_input = input(
     '\n       ---------------------------------------------------\n       -*-*-Command Line CECD Extractor-*-*-                                    \n       ---------------------------------------------------           \n\nProgramming written by AbdyyEee. \nUtlizes 3ds-save-tool for extraction \nFor use with Cecil_FF4s StreetPass 2 Rise From the Ashes. \n \nSelect Y to continue with extraction, or N to end the process. '
