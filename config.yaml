@@ -15,9 +15,3 @@ out_path:
 # Cecd files are required to have the name used below
 # You can choose any name
 default_file_name: "00000000"
-
-
-
-
-
-
