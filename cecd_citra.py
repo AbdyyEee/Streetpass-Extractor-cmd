@@ -6,6 +6,15 @@ try:
 except:
     print("WARNING: config.yaml is not found in the current directory. Exiting...")
     exit(1)
+ 
+
+from config_handling import citra_path
+
+if citra_path is None:
+    print("WARNING: The path for your Citra installation is not set.")
+    print("You can use the -setpath argument to set the path via command line")
+    print("Or manually edit config.yaml and enter the path in the variable citra_path")
+
 
 from argparse import ArgumentParser
 from os import getcwd                                                                                   
@@ -19,11 +28,6 @@ from config_handling import citra_path, default_file_name, in_path, out_path
 
 STREETPASS_LOCATION = r"\nand\data\00000000000000000000000000000000\sysdata\00010026\00000000"
 EVENT_LOG_LOCATION = STREETPASS_LOCATION[:-9] 
-
-if citra_path is None:
-    print("WARNING: The path for your Citra installation is not set.")
-    print("You can use the -setpath argument to set the path via command line")
-    print("Or manually edit config.yaml and enter the path in the variable citra_path")
 
 arguments = ArgumentParser()
 
