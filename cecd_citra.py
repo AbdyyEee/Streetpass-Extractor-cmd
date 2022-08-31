@@ -1,4 +1,4 @@
-# First checck if config.yaml is in the current directory
+# Check if config.yaml is in the current directory
 # Opening a file that doesn't exist will show if it is in the dir
 try:
     catch = open("config.yaml")
@@ -7,7 +7,6 @@ except:
     print("WARNING: config.yaml is not found in the current directory. Exiting...")
     exit(1)
  
-
 from config_handling import citra_path
 
 if citra_path is None:
