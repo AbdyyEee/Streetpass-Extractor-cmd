@@ -18,7 +18,7 @@ from tkinter import filedialog
 from config_handling import citra_path, default_file_name, in_path, out_path
 
 STREETPASS_LOCATION = r"\nand\data\00000000000000000000000000000000\sysdata\00010026\00000000"
-EVENT_LOG_LOCATION = r"\nand\data\00000000000000000000000000000000\sysdata\00010026"
+EVENT_LOG_LOCATION = STREETPASS_LOCATION[:-9] 
 
 if citra_path is None:
     print("WARNING: The path for your Citra installation is not set.")
