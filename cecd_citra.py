@@ -19,8 +19,6 @@ from config_handling import citra_path, default_file_name, in_path, out_path
 
 STREETPASS_LOCATION = r"\nand\data\00000000000000000000000000000000\sysdata\00010026\00000000"
 EVENT_LOG_LOCATION = r"\nand\data\00000000000000000000000000000000\sysdata\00010026"
-# Unused but will be used for future Citra config file edits
-CITRA_CONFIG = r"\config"
 
 if citra_path is None:
     print("WARNING: The path for your Citra installation is not set.")
@@ -29,7 +27,6 @@ if citra_path is None:
 
 arguments = ArgumentParser()
 
-# Command line arguments
 arguments.add_argument(
     "-extract", help="Extract a cecd file. Useful for debugging.", action="store_true"
 )
@@ -46,14 +43,11 @@ arguments.add_argument(
 
 parsed_args = arguments.parse_args()
 
-# Command line variables
+
 extract = parsed_args.extract
 streetpass = parsed_args.streetpass
 set_path = parsed_args.set_path
 
-
-# Yaml module isn't used here although it probably should be
-# I Haven't yet figured out how to edit specific variables
 if set_path:
     path = input("\nSet your Citra Installation path. ")
     with open("config.yaml", "r+") as f:
