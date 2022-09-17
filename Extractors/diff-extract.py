@@ -45,8 +45,7 @@ def cryptoUnwrap(diff, saveType, saveId, saveSubId, key):
             fileName = "import.db"
         path = "/dbs/" + fileName
 
-    import sd_decrypt
-    return sd_decrypt.DecryptSdFile(diff, path, key)
+
 
 
 def unwrapDIFF(filePath, expectedUniqueId=None, saveType=None, saveId=None,
@@ -87,14 +86,6 @@ def unwrapDIFF(filePath, expectedUniqueId=None, saveType=None, saveId=None,
         digestBlock = b"CTR-9DB0" + struct.pack("<I", saveId) + header
     else:
         print("Unknown save type. Will skip CMAC verification.")
-
-    if digestBlock is not None:
-        import cmac
-        if Cmac != cmac.AesCmac(hashlib.sha256(digestBlock).digest(), key):
-            print("Error: CMAC mismatch.")
-            exit(1)
-        else:
-            print("Info: CMAC verified.")
 
     DIFF, ver, \
         secPartTableOff, priPartTableOff, partTableSize, \

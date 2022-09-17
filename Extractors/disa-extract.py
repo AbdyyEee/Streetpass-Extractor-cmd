@@ -298,10 +298,6 @@ def main():
 
     fat.allVisited()
 
-    print(
-        '\n------------------------------\n Process completed, refer to the guide on \nhow to utilize the files to streetpass. \nIf errors have occured, try again. If the errors continue to occur, \ncontact me via joining the Citra server and dming me, \nMy username is AbdyyEee#1503.\n------------------------------\n '
-    )
-
 
 if __name__ == "__main__":
     main()

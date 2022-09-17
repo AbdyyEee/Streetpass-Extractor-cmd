@@ -1,0 +1,17 @@
+#  .- Configuration File -.
+# .-- Enter data after the colon if needed --.
+
+# MUST SET
+# Citra Path Location:
+# The path should be in the folder with nand, sdmc, config etc
+citra_path: 
+
+# Optional Configuration:
+# For constant paths for extraction
+# if both fields filled, path popups will be ignored
+in_path: 
+out_path: 
+# Default file name for the cecd file 
+# Cecd files are required to have the name used below
+# You can choose any name
+default_file_name: "00000000"
