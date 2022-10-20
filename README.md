@@ -9,4 +9,4 @@ Creator of Streetpass 2 Rise From The Ashes: Cecil_FF4 <br>
 Creator of 3ds-save-tool, used for extraction of files: wwylele 
 
 # *Note*
-This program is a temporary soloution for Streetpassing on Citra. <br> <br> *This will be obsolete once an open source implementation of Streetpassing has been implemented in mainline Citra builds.*
+*This is a temporary solution of Streetpassing on Citra. Once an actual StreetPass implementation is merged into Citra, this guide will still work but will become obsolete.*
