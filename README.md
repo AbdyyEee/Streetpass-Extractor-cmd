@@ -2,7 +2,7 @@
 Program built for Streetpassing on Citra.  <br> <br>
 
 # Usage 
-I made a guide [here](https://docs.google.com/document/d/1uAQsQYI5jgvXtjbP4tiSlaLTTfpMW6cQI8N2JJ4YRXg).
+[Guide](https://docs.google.com/document/d/1uAQsQYI5jgvXtjbP4tiSlaLTTfpMW6cQI8N2JJ4YRXg).
 
 # Credits
 Creator of Streetpass 2 Rise From The Ashes: Cecil_FF4 <br>
