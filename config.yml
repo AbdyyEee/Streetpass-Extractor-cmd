@@ -1,0 +1,8 @@
+# Configuration File
+
+# Mandatory
+# Do not enclose the path in quotes
+citra_path: 
+# Optional
+# All files will use this name 
+default_file_name: "00000000"
