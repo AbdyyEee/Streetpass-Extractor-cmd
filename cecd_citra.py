@@ -1,4 +1,4 @@
-\from yaml import safe_load
+from yaml import safe_load
 from os import getcwd, listdir
 
 if "config.yml" not in listdir():
