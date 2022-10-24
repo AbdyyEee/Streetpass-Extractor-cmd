@@ -35,6 +35,6 @@ if default_file_name in listdir():
     move(f"CEC", rf"{citra_path}{STREETPASS_LOCATION}")
     print("Streetpass complete!")
 else:
-    print("The CECD file is not found in the current directory. Make sure the file has same as defined in config.yml. By default, the name is '00000000'.")
+    print("The CECD file is not found in the current directory. Make sure the file has the same name as defined in config.yml. By default, the name is '00000000'.")
     
 input()
