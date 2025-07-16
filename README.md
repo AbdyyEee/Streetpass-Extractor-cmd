@@ -1,7 +1,7 @@
 # Streetpass On Citra
 Program built for Streetpassing on Citra. 
 > [!CAUTION]
-> This repository is no longer maintained. Use [Netpass](https://wiki.hacks.guide/wiki/3DS:NetPass) for Stretpassing.
+> This repository is no longer maintained. Use [Netpass](https://wiki.hacks.guide/wiki/3DS:NetPass) for Streetpassing.
 # Usage 
 [Guide](https://docs.google.com/document/d/1uAQsQYI5jgvXtjbP4tiSlaLTTfpMW6cQI8N2JJ4YRXg)
 # Credits
